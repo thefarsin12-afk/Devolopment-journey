@@ -1,0 +1,5 @@
+"""owner_wise_count = [e.get("owner") for e in expenses]
+
+oc = {c: owner_wise_count.count(c)  for c in owner_wise_count}
+
+oc"""

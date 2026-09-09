@@ -1,0 +1,44 @@
+q1) wirte a program to display anagrams
+
+    words=["silent","listen","act","cat","note","tone","hen","chicken"]
+
+    angarms=["silent","listen","act","cat","note","tone"]
+    
+q2) write a program to print duplicate numbers
+
+    arr=[10,1,15,16,11,10,12,11]
+
+    o/p => [10,11]
+
+q3)write a program to print unique numbers 
+
+        arr=[10,1,15,16,11,10,12,11]
+
+        o/p => [1,15,16,12]
+
+q4)write a program to print most frequent  number
+
+     arr=[10,1,15,16,11,10,12,11,12,18,12]
+    
+    o/p => 12
+
+q5) write a program to print least +ve missing number 
+
+     arr=[1,2,4,5]
+     o/p => 3
+
+     eg2:
+    arr=[1,3,4,5]
+     o/p => 2
+
+     q1)word="python programming is simple"
+    write a program to print character count
+
+q2)words=["hai","hello","hai","hai","hai"]
+
+    write a program to print word count
+
+q3) attendance = ["p","p","a","a","o","o","h"]
+
+    write a program to print attendance count
+"""

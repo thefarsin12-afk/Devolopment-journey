@@ -1,0 +1,15 @@
+"""
+5 row and left half
+
+1
+12
+123
+12345
+"""
+for r in range(1,5):
+
+    for c in range(1,r+1):
+
+        print(c, end= "")
+
+    print()    

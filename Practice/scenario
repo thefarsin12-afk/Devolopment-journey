@@ -1,0 +1,215 @@
+Fibonacci number:
+
+Easy:
+Print the first n Fibonacci numbers.
+Print Fibonacci numbers up to n.
+Check whether a number is Fibonacci.
+Find the nth Fibonacci number.
+
+Medium:
+Find the sum of the first n Fibonacci numbers.
+Count how many Fibonacci numbers are less than or equal to n.
+Print only the even Fibonacci numbers up to n.
+Print only the odd Fibonacci numbers up to n.
+
+Challenge:
+Print the first 20 Fibonacci numbers using a while loop.
+Find the largest Fibonacci number less than or equal to n.
+
+Easy
+Print Fibonacci numbers between a and b.
+Example: a = 5, b = 30
+Output: 5 8 13 21
+Count the odd Fibonacci numbers up to n.
+Count the even Fibonacci numbers up to n.
+Find the sum of all even Fibonacci numbers up to n.
+Find the sum of all odd Fibonacci numbers up to n.
+
+Medium
+Find the smallest Fibonacci number greater than or equal to n.
+Example:
+Input: 10
+Output: 13
+Print the Fibonacci numbers in reverse order (first n numbers).
+Find the difference between the last two Fibonacci numbers generated up to n.
+Find the product of the first n Fibonacci numbers.
+Count how many Fibonacci numbers are divisible by 3 up to n.
+
+Challenging
+Print every 3rd Fibonacci number.
+Example:
+Output: 1 3 13 55 ...
+Find the first Fibonacci number greater than 1000.
+Print Fibonacci numbers whose last digit is 5.
+Print only Fibonacci numbers divisible by 5.
+Find the average of the first n Fibonacci numbers.
+Find the largest even Fibonacci number less than or equal to n.
+Find the largest odd Fibonacci number less than or equal to n.
+Count Fibonacci numbers that are prime up to n.
+Print only Fibonacci numbers that are perfect squares.
+Find the index (position) of a Fibonacci number.
+Example:
+Input: 21
+Output: 9 (because 21 is the 9th Fibonacci number if counting 0 as the 1st number)
+
+Reverse Number
+
+Example:
+Input: 1234
+Output: 4321
+
+Check Whether a Number is a Palindrome
+Example:
+Input: 121
+Output: Palindrome
+Input: 123
+Output: Not Palindrome
+
+Count the Number of Digits
+Example:
+Input: 98765
+Output: 5
+
+Find the Sum of the Digits
+Example:
+Input: 1234
+Output: 10
+(1 + 2 + 3 + 4 = 10)
+
+Find the Largest Digit in a Number
+Example:
+Input: 58392
+Output: 9
+
+Palindrome Number:
+
+1. Check whether a number is a Palindrome.
+Example:
+Input: 121
+Output: Palindrome
+Input: 123
+Output: Not Palindrome
+
+2. Find the Smallest Digit in a Number.
+Example:
+Input: 58392
+Output: 2
+
+3. Find the Product of the Digits.
+Example:
+Input: 1234
+Output: 24
+Explanation:
+1 × 2 × 3 × 4 = 24
+
+4. Count the Even Digits in a Number.
+Example:
+Input: 58392
+Output: 2
+Even digits are:
+8, 2
+
+5. Find the Sum of the Odd Digits.
+Example:
+Input: 58392
+Output: 17
+Explanation:
+5 + 3 + 9 = 17
+
+1. Count the Palindrome Numbers in a Range
+Write a program to count how many palindrome numbers are between a and b.
+Example:
+Input:
+a = 10
+b = 30
+
+Output:
+2
+
+Explanation:
+11, 22
+2. Find the Next Palindrome Number
+Write a program to find the smallest palindrome number greater than n.
+Example 1:
+Input:
+123
+Output:
+131
+
+Example 2:
+Input:
+99
+Output:
+101
+
+sum of digit:
+
+1. Find the Sum of Digits of a Number
+
+Example:
+
+Input: 12345
+
+Output: 15
+
+Explanation:
+
+1 + 2 + 3 + 4 + 5 = 15
+
+2. Find the Sum of Even Digits in a Number
+
+Example:
+
+Input: 58392
+
+Output: 10
+
+Explanation:
+
+8 + 2 = 10
+
+3. Find the Sum of Odd Digits in a Number
+
+Example:
+
+Input: 58392
+
+Output: 17
+
+Explanation:
+
+5 + 3 + 9 = 17
+
+4. Find the Sum of First and Last Digit
+
+Example:
+
+Input: 58392
+
+Output: 7
+
+Explanation:
+
+First digit = 5
+Last digit = 2
+
+5 + 2 = 7
+
+5. Find the Digital Root of a Number
+(Keep adding digits until one digit remains)
+Example:
+Input: 9875
+Process:
+9 + 8 + 7 + 5 = 29
+2 + 9 = 11
+1 + 1 = 2
+Output:
+2
+
+Arm strong number:
+
+Check whether a number is an Armstrong number.
+Count Armstrong numbers between a and b.
+Print all Armstrong numbers from 1 to 1000.
+Find the sum of all Armstrong numbers up to n.
+Find the largest Armstrong number less than or equal to n.

@@ -1,0 +1,81 @@
+Python List Comprehension Practice Workbook
+
+LEVEL 1 1. Create a list of squares Input: numbers = [1,2,3,4,5] Output:
+[1,4,9,16,25]
+
+2.  Convert all names to uppercase Input:
+    names=[“john”,“alice”,“bob”,“emma”] Output:
+    [“JOHN”,“ALICE”,“BOB”,“EMMA”]
+
+3.  Find length of each word Input:
+    words=[“apple”,“cat”,“elephant”,“bat”] Output: [5,3,8,3]
+
+4.  Multiply every number by 10 Input: numbers=[2,5,8,10] Output:
+    [20,50,80,100]
+
+5.  Add 100 to every salary Input: salary=[1200,1800,1500,2200] Output:
+    [1300,1900,1600,2300]
+
+LEVEL 2 1. Extract even numbers Input: numbers=[3,8,15,22,10,5] Expected
+Output: [8,22,10]
+
+2.  Extract words longer than 5 letters Input:
+    words=[“apple”,“watermelon”,“dog”,“elephant”,“cat”] Expected Output:
+    [“watermelon”,“elephant”]
+
+3.  Extract positive numbers Input: numbers=[-10,15,-8,20,5,-2] Expected
+    Output: [15,20,5]
+
+4.  Extract names starting with ‘A’ Input:
+    names=[“Alice”,“Bob”,“Andrew”,“Emma”,“Alex”] Expected Output:
+    [“Alice”,“Andrew”,“Alex”]
+
+5.  Extract numbers divisible by 5 Input: numbers=[12,15,20,33,40,51]
+    Expected Output: [15,20,40]
+
+LEVEL 3 1. Replace odd numbers with “Odd” Input:[2,5,8,7,10]
+Output:[2,“Odd”,8,“Odd”,10]
+
+2.  Convert negative numbers to 0 Input:[-5,10,-3,20,15]
+    Output:[0,10,0,20,15]
+
+3.  Pass or Fail Input:[35,70,90,48,55]
+    Output:[“Fail”,“Pass”,“Pass”,“Fail”,“Pass”]
+
+4.  Replace empty strings with “Unknown”
+    Input:[“John”,““,”Alice”,““,”David”]
+    Output:[“John”,“Unknown”,“Alice”,“Unknown”,“David”]
+
+5.  Label numbers Input:[50,120,80,200,95]
+    Output:[“Low”,“High”,“Low”,“High”,“Low”]
+
+LEVEL 4 1. Remove leading and trailing spaces Input:[” John “,” Alice
+“,” Bob”,“Emma”] Output:[“John”,“Alice”,“Bob”,“Emma”]
+
+2.  Capitalize every word Input:[“john”,“alice”,“bob”,“emma”]
+    Output:[“John”,“Alice”,“Bob”,“Emma”]
+
+3.  Get first character of every word
+    Input:[“Python”,“Java”,“Django”,“React”] Output:[“P”,“J”,“D”,“R”]
+
+4.  Add “.com” to each website name
+    Input:[“google”,“amazon”,“github”,“openai”]
+    Output:[“google.com”,“amazon.com”,“github.com”,“openai.com”]
+
+5.  Replace spaces with underscores Input:[“Python Basics”,“Learn
+    Django”,“React Course”]
+    Output:[“Python_Basics”,“Learn_Django”,“React_Course”]
+
+LEVEL 5 1. Extract names whose age >=18
+Input:[(“John”,18),(“Alice”,22),(“Bob”,16),(“Emma”,25)]
+Output:[“John”,“Alice”,“Emma”]
+
+2.  Double only even numbers Input:[2,3,6,7,10] Output:[4,3,12,7,20]
+
+3.  Create usernames Input:[“John”,“Alice”,“Bob”,“Emma”]
+    Output:[“john@gmail.com”,“alice@gmail.com”,“bob@gmail.com”,“emma@gmail.com”]
+
+4.  Add 18% GST Input:[100,250,500,800] Output:[118.0,295.0,590.0,944.0]
+
+5.  Classify temperatures Input:[18,22,35,28,15]
+    Output:[“Cold”,“Warm”,“Hot”,“Warm”,“Cold”]

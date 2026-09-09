@@ -1,0 +1,24 @@
+"""
+Movie title,language,year,director,genre 
+    -setmovie(title,language,year,director,genre)
+    -getmovie(self)
+
+Employee id,name,salary,phone,department
+        -setemployee(id,name,salary,phone,department)
+        -getemployee()
+
+Song  id,moviename,title,trackno,singer,duration
+        -setsong(id,moviename,title,trackno,singer,duration)
+        -getsong()
+    
+"""
+
+"""
+Common 2D Shapes and Formulas
+Rectangle:Multiply length (l) by width (w) (A = l × w)
+Square: Multiply the side length (a) by itself (A = a²)
+Circle: Multiply pi (π) by the radius squared (A = π r²)
+Parallelogram: Multiply base (b) by vertical height (h) (A = bh).
+Trapezium: Add parallel sides (a + b), multiply by height (h), and divide by two (\(A = \frac{1}{2}(a + b)h\)).
+
+"""

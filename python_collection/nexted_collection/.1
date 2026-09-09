@@ -1,0 +1,123 @@
+movies = [
+    #  0       1      2  3   4
+    ["kgf","kannada",150,2005,8], #0
+    ["balan","malayalam",130,2026,7], # 1
+    ["ramayan","hindi",150,2026,8.5], #2
+    ["abcd","malayalam",140,2008,6], #3
+    ["goatlife","malayalam",160,2024,9] #4
+
+]
+
+max_number = max(m[4] for m in movies)
+print(max_number)
+
+min_numbers = min(m[4] for m in movies)
+print(min_numbers)
+
+average_number = sum(m[4] for m in movies) / len(movies)
+print(average_number)
+
+"""import matplotlib.pyplot as plt
+x = lc.keys()
+y = lc.values()
+plt.bar(x,y)"""
+
+#first method
+maximum_rating = max(m[4] for m in movies)
+minimum_rating = min(m[4] for m in movies)
+average_rating = sum(m[4] for m in movies) / len(movies)
+
+import matplotlib.pyplot as plt
+x = ["Maximum", "Minimum", "Average"]
+y = [maximum_rating, minimum_rating, average_rating]
+plt.bar(x, y)
+
+owner_summary = {}
+
+"""for e in expenses:
+
+    owner = e.get("owner")
+    amount = e.get("amount")
+
+    if owner in owner_summary:
+
+      owner_summary[owner] += amount
+
+    else:
+      owner_summary[owner] = amount    
+owner_summary    """
+
+"""
+expenses = [
+    {"owner": "Farsin", "amount": 180, "date": "01-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Farsin", "amount": 450, "date": "01-08-2026", "category": "Transport", "paymentmethod": "Card"},
+    {"owner": "Anjali", "amount": 1200, "date": "01-08-2026", "category": "Shopping", "paymentmethod": "Card"},
+    {"owner": "Rahul", "amount": 850, "date": "01-08-2026", "category": "Fuel", "paymentmethod": "Cash"},
+    {"owner": "Nithin", "amount": 250, "date": "01-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Meera", "amount": 3000, "date": "01-08-2026", "category": "Rent", "paymentmethod": "Bank Transfer"},
+    {"owner": "Arya", "amount": 150, "date": "02-08-2026", "category": "Snacks", "paymentmethod": "UPI"},
+    {"owner": "Farsin", "amount": 200, "date": "02-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 500, "date": "02-08-2026", "category": "Entertainment", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 1200, "date": "02-08-2026", "category": "Shopping", "paymentmethod": "UPI"},
+    {"owner": "Anjali", "amount": 350, "date": "02-08-2026", "category": "Transport", "paymentmethod": "Cash"},
+    {"owner": "Meera", "amount": 600, "date": "02-08-2026", "category": "Medical", "paymentmethod": "Card"},
+    {"owner": "Arya", "amount": 90, "date": "02-08-2026", "category": "Tea", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 1500, "date": "03-08-2026", "category": "Electronics", "paymentmethod": "Card"},
+    {"owner": "Rahul", "amount": 220, "date": "03-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Nithin", "amount": 450, "date": "03-08-2026", "category": "Fuel", "paymentmethod": "Cash"},
+    {"owner": "Anjali", "amount": 300, "date": "03-08-2026", "category": "Snacks", "paymentmethod": "UPI"},
+    {"owner": "Meera", "amount": 1800, "date": "03-08-2026", "category": "Shopping", "paymentmethod": "Card"},
+    {"owner": "Arya", "amount": 120, "date": "03-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 250, "date": "03-08-2026", "category": "Transport", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 999, "date": "04-08-2026", "category": "Internet", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 4500, "date": "04-08-2026", "category": "Rent", "paymentmethod": "Bank Transfer"},
+    {"owner": "Anjali", "amount": 280, "date": "04-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Meera", "amount": 120, "date": "04-08-2026", "category": "Tea", "paymentmethod": "Cash"},
+    {"owner": "Arya", "amount": 850, "date": "04-08-2026", "category": "Fuel", "paymentmethod": "Card"},
+    {"owner": "Farsin", "amount": 420, "date": "04-08-2026", "category": "Medical", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 700, "date": "04-08-2026", "category": "Entertainment", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 180, "date": "04-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Anjali", "amount": 2500, "date": "05-08-2026", "category": "Shopping", "paymentmethod": "Card"},
+    {"owner": "Meera", "amount": 300, "date": "05-08-2026", "category": "Transport", "paymentmethod": "UPI"},
+    {"owner": "Arya", "amount": 150, "date": "05-08-2026", "category": "Snacks", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 180, "date": "05-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Farsin", "amount": 500, "date": "05-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 1250, "date": "05-08-2026", "category": "Fuel", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 650, "date": "05-08-2026", "category": "Medical", "paymentmethod": "UPI"},
+    {"owner": "Anjali", "amount": 400, "date": "05-08-2026", "category": "Entertainment", "paymentmethod": "Cash"},
+    {"owner": "Meera", "amount": 100, "date": "05-08-2026", "category": "Tea", "paymentmethod": "UPI"},
+    {"owner": "Arya", "amount": 3200, "date": "06-08-2026", "category": "Rent", "paymentmethod": "Bank Transfer"},
+    {"owner": "Farsin", "amount": 210, "date": "06-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Rahul", "amount": 450, "date": "06-08-2026", "category": "Transport", "paymentmethod": "UPI"},
+    {"owner": "Nithin", "amount": 850, "date": "06-08-2026", "category": "Fuel", "paymentmethod": "Card"},
+    {"owner": "Anjali", "amount": 1800, "date": "06-08-2026", "category": "Electronics", "paymentmethod": "Card"},
+    {"owner": "Meera", "amount": 250, "date": "06-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Arya", "amount": 300, "date": "06-08-2026", "category": "Medical", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 1200, "date": "07-08-2026", "category": "Shopping", "paymentmethod": "Card"},
+    {"owner": "Rahul", "amount": 220, "date": "07-08-2026", "category": "Snacks", "paymentmethod": "UPI"},
+    {"owner": "Nithin", "amount": 350, "date": "07-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Anjali", "amount": 180, "date": "07-08-2026", "category": "Transport", "paymentmethod": "UPI"},
+    {"owner": "Meera", "amount": 900, "date": "07-08-2026", "category": "Entertainment", "paymentmethod": "Card"},
+    {"owner": "Arya", "amount": 450, "date": "07-08-2026", "category": "Fuel", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 140, "date": "08-08-2026", "category": "Tea", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 2750, "date": "08-08-2026", "category": "Shopping", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 230, "date": "08-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Anjali", "amount": 650, "date": "08-08-2026", "category": "Medical", "paymentmethod": "UPI"},
+    {"owner": "Meera", "amount": 300, "date": "08-08-2026", "category": "Transport", "paymentmethod": "Cash"},
+    {"owner": "Arya", "amount": 1000, "date": "08-08-2026", "category": "Internet", "paymentmethod": "Card"},
+    {"owner": "Farsin", "amount": 550, "date": "09-08-2026", "category": "Fuel", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 240, "date": "09-08-2026", "category": "Food", "paymentmethod": "Cash"},
+    {"owner": "Nithin", "amount": 4200, "date": "09-08-2026", "category": "Rent", "paymentmethod": "Bank Transfer"},
+    {"owner": "Anjali", "amount": 500, "date": "09-08-2026", "category": "Entertainment", "paymentmethod": "Card"},
+    {"owner": "Meera", "amount": 175, "date": "09-08-2026", "category": "Tea", "paymentmethod": "Cash"},
+    {"owner": "Arya", "amount": 1350, "date": "09-08-2026", "category": "Shopping", "paymentmethod": "UPI"},
+    {"owner": "Farsin", "amount": 280, "date": "10-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Rahul", "amount": 900, "date": "10-08-2026", "category": "Fuel", "paymentmethod": "Card"},
+    {"owner": "Nithin", "amount": 240, "date": "10-08-2026", "category": "Transport", "paymentmethod": "Cash"},
+    {"owner": "Anjali", "amount": 1600, "date": "10-08-2026", "category": "Electronics", "paymentmethod": "Card"},
+    {"owner": "Meera", "amount": 320, "date": "10-08-2026", "category": "Food", "paymentmethod": "UPI"},
+    {"owner": "Arya", "amount": 150, "date": "10-08-2026", "category": "Snacks", "paymentmethod": "Cash"},
+    {"owner": "Farsin", "amount": 450, "date": "10-08-2026", "category": "Medical", "paymentmethod": "Card"},
+    {"owner": "Rahul", "amount": 200, "date": "10-08-2026", "category": "Tea", "paymentmethod": "UPI"},
+]
+"""
