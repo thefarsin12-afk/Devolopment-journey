@@ -1,0 +1,14 @@
+#Write a Python program to check whether a given number is prime or not.
+
+def prime_number(number):
+
+    for i in range (2,number):
+
+        if number % i == 0:
+            print("Not prime  Number")
+            break
+
+    else:print("Prime Number =",number)    
+
+prime_number(7)
+
