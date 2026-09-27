@@ -1,5 +1,5 @@
 """
-lambda function : abonimus function with single expression
+lambda function : anonymous function with single expression
 
 syntax : lambda p1,p2 : expression
 
@@ -16,3 +16,5 @@ add_num = lambda n1,n2:n1+n2
 print(add_num(12,13))
 """
 #program
+square_lambda = lambda n:n*n*n*n
+print(square_lambda(2))
